@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leo Zanoni — Photography</title>
+<meta name="description" content="Portrait and contemporary photography by Leo Zanoni. Based in Dublin, Ireland.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
+</head>
+<body class="theme-warm accent-rust density-normal herolay-balanced">
+
+<!-- ====================== NAV ====================== -->
+<nav class="nav" id="nav" data-screen-label="Nav">
+  <a href="#top" class="logo" aria-label="Leo Zanoni — Photography">
+    <span class="l1">LEO</span>
+    <span class="l2">ZANONI</span>
+    <span class="l3">Photography</span>
+  </a>
+  <div class="nav-links" role="navigation">
+    <a href="#work" data-nav="work">Work</a>
+    <a href="#about" data-nav="about">About</a>
+    <a href="#contact" data-nav="contact">Contact</a>
+    <a href="https://www.instagram.com/leozanoni.studio/" target="_blank" rel="noopener" class="nav-ig" aria-label="Instagram — @leozanoni.studio">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+        <circle cx="12" cy="12" r="4"></circle>
+        <circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"></circle>
+      </svg>
+    </a>
+  </div>
+  <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<main id="top" data-screen-label="Home">
+
+  <!-- ====================== HERO ====================== -->
+  <section class="hero-split" data-screen-label="Hero">
+    <div class="hero-name">
+      <div class="eyebrow">Photographer · Dublin, Ireland</div>
+      <h1 class="hero-bigname"><span class="bold">LEO</span><span class="thin">ZANONI</span></h1>
+      <div class="hero-actions">
+        <a href="#work" class="btn">
+          <span>View the work</span>
+          <span class="arr">↓</span>
+        </a>
+        <a href="https://www.instagram.com/leozanoni.studio/" target="_blank" rel="noopener" class="ig-pill">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+            <circle cx="12" cy="12" r="4"></circle>
+            <circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"></circle>
+          </svg>
+          <span>@leozanoni.studio</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-frame" id="heroFrame">
+      <!-- cycling photo injected via JS -->
+    </div>
+  </section>
+
+  <!-- ====================== WORK / GALLERY ====================== -->
+  <section class="section gallery-section" id="work" data-screen-label="Work">
+    <div class="wrap">
+      <div class="gallery-head reveal">
+        <div class="eyebrow">Selected Work</div>
+        <h2 class="h2" style="margin-top:16px;">A working archive.</h2>
+        <p class="body" style="margin-top:18px; max-width: 46ch;">Portraits, contemporary work and personal series, 2020 — 2026. Click any frame to view it larger.</p>
+      </div>
+
+      <div class="gallery" id="gallery">
+        <!-- photos injected via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== ABOUT ====================== -->
+  <section class="section" id="about" data-screen-label="About">
+    <div class="wrap about-grid reveal">
+      <div class="about-portrait">
+        <div class="photo" style="aspect-ratio:714/1000;">
+          <div class="ph-layer" style="background-image:url('assets/leo-portrait.jpg');"></div>
+          <div class="ph-grain"></div>
+        </div>
+        <div class="label-block">
+          <span>Leo Zanoni</span><span>Dublin · IE</span>
+        </div>
+      </div>
+
+      <div class="about-copy">
+        <div>
+          <div class="eyebrow">About</div>
+          <h2 class="h2" style="margin-top:18px;">Photographs<br>made slowly,<br>seen carefully.</h2>
+        </div>
+        <div>
+          <p>I am a Brazilian photographer and digital designer based in Dublin, Ireland. My work focuses on portrait, fashion and contemporary photography, with an interest in people, stories and visual atmosphere.</p>
+          <p>With a background in journalism, photography and digital design, I create images that combine careful composition, emotion and a strong sense of presence.</p>
+        </div>
+        <div>
+          <a href="#contact" class="btn">
+            <span>Get in touch</span>
+            <span class="arr">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== CONTACT ====================== -->
+  <section class="contact section" id="contact" data-screen-label="Contact">
+    <div class="wrap reveal" style="max-width: 720px;">
+      <div style="text-align:center;">
+        <div class="eyebrow no-dot" style="justify-content:center;">Get in touch</div>
+        <h2 class="display-thin" style="margin-top:24px; font-size: clamp(44px, 8vw, 120px);">Let's<br>work together.</h2>
+        <p class="body" style="margin: 28px auto 0; max-width: 44ch;">For commissions, prints or press, send a message below — or follow the studio on Instagram.</p>
+      </div>
+
+      <form class="cform" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+        <!-- COLE AQUI sua chave do Web3Forms (instruções no chat). Seu email NÃO aparece no site. -->
+        <input type="hidden" name="access_key" value="eb610357-b9f0-4fc7-8f7e-dd57f14c7057">
+        <input type="hidden" name="subject" value="New message from leozanoni.com">
+        <input type="hidden" name="from_name" value="Leo Zanoni Website">
+        <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
+
+        <label class="cfield">
+          <span class="cfield-label">Name</span>
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label class="cfield">
+          <span class="cfield-label">Email</span>
+          <input type="email" name="email" placeholder="you@email.com" required>
+        </label>
+        <label class="cfield">
+          <span class="cfield-label">Message</span>
+          <textarea name="message" rows="5" placeholder="Tell me about your project, the subject and what you're looking for." required></textarea>
+        </label>
+
+        <button type="submit" class="btn" style="margin-top:8px;">
+          <span>Send message</span>
+          <span class="arr">→</span>
+        </button>
+        <p class="cform-status" id="formStatus" hidden></p>
+      </form>
+
+      <div class="contact-alt">
+        <a href="https://www.instagram.com/leozanoni.studio/" target="_blank" rel="noopener" class="contact-alt-link">
+          <span class="label">Instagram</span>
+          <span class="ig-inline">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+              <circle cx="12" cy="12" r="4"></circle>
+              <circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"></circle>
+            </svg>@leozanoni.studio</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== FOOTER ====================== -->
+  <footer class="foot" data-screen-label="Footer">
+    <div class="foot-simple">
+      <div class="brand">
+        <div class="l1">LEO</div>
+        <div class="l2">ZANONI</div>
+        <div class="l3">Photography · Dublin, Ireland</div>
+      </div>
+      <a href="https://www.instagram.com/leozanoni.studio/" target="_blank" rel="noopener" class="ig-pill ig-pill-dark">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <circle cx="12" cy="12" r="4"></circle>
+          <circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"></circle>
+        </svg>
+        <span>@leozanoni.studio</span>
+      </a>
+    </div>
+    <div class="foot-bottom">
+      <span>© MMXXVI · leozanoni.com</span>
+      <span>Made in Dublin</span>
+    </div>
+  </footer>
+
+</main>
+
+<!-- ====================== LIGHTBOX ====================== -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" data-lb-close aria-label="Close">
+    <span class="x"></span>
+  </button>
+  <button class="lb-nav lb-prev" data-lb-prev aria-label="Previous">←</button>
+  <div class="lb-stage" id="lbStage"></div>
+  <button class="lb-nav lb-next" data-lb-next aria-label="Next">→</button>
+  <div class="lb-caption" id="lbCaption"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
